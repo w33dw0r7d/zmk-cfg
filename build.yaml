@@ -19,7 +19,11 @@
 #
 ---
 include:
-  - board: nrfmicro_13_52833
-    shield: corne_left
-  - board: nrfmicro_13_52833
-    shield: corne_right
+ - board: nrfmicro_13_52833
+   shield: rt-22_right
+ - board: nrfmicro_13
+   shield: rt-22_k
+ - board: nrfmicro_13_52833
+   shield: settings_reset
+ - board: nrfmicro_13
+   shield: settings_reset
