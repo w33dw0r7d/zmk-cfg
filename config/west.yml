@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nrfmicro_13_52833
-      url-base: https://github.com/krikun98/zmk
+    - name: krikun98
+      url-base: https://github.com/krikun98
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nrfmicro_13_52833
-      remote: nrfmicro_13_52833
+    - name: zmk
+      remote: krikun98
       revision: nrf52833
       path: boards/nrfmicro_13_52833
   self:
