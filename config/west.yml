@@ -12,7 +12,6 @@ manifest:
     - name: zmk
       remote: krikun98
       revision: nrf52833
-      path: boards/nrfmicro_13_52833
       import: app/west.yml
   self:
     path: config
