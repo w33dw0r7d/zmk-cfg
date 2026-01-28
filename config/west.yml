@@ -5,13 +5,14 @@ manifest:
     - name: krikun98
       url-base: https://github.com/krikun98
   projects:
-    - name: zmk
-      remote: zmkfirmware
-      revision: main
-      import: app/west.yml
+    # - name: zmk
+    #   remote: zmkfirmware
+    #   revision: main
+    #   import: app/west.yml
     - name: zmk
       remote: krikun98
       revision: nrf52833
       path: boards/nrfmicro_13_52833
+      import: app/west.yml
   self:
     path: config
