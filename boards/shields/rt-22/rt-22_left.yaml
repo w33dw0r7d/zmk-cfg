@@ -1,0 +1,7 @@
+file_format: "1"
+id: rt-22_left
+name: RT-22 Left
+type: shield
+requires: [pro_micro]
+features:
+  - keys
