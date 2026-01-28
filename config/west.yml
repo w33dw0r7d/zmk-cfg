@@ -7,5 +7,9 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: nrfmicro_13_52833
+      remote: krikun98/zmk
+      revision: nrf52833
+      path: boards/nrfmicro_13_52833
   self:
     path: config
