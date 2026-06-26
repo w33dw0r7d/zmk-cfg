@@ -19,7 +19,7 @@
 #
 ---
 include:
-  - board: skean_left
-  - board: skean_right
-  - board: skean_left
+  - board: skean_left/nrf52833/zmk
+  - board: skean_right/nrf52833/zmk
+  - board: skean_left/nrf52833/zmk
     shield: settings_reset

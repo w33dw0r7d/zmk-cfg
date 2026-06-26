@@ -1,0 +1,13 @@
+boards:
+  - name: skean_left
+    vendor: tintsgrid
+    socs:
+      - name: nrf52833
+        variants:
+          - name: zmk
+  - name: skean_right
+    vendor: tintsgrid
+    socs:
+      - name: nrf52833
+        variants:
+          - name: zmk

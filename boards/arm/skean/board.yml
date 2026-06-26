@@ -1,9 +1,0 @@
-board:
-  name: skean
-  full_name: Skean
-  vendor: tintsgrid
-  socs:
-    - name: nrf52840
-      variants:
-        - name: left
-        - name: right

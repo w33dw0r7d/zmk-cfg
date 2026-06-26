@@ -3,8 +3,11 @@
 
 if BOARD_SKEAN_LEFT
 
-	config ZMK_KEYBOARD_NAME
-	default "Skean"
+config ZMK_KEYBOARD_NAME
+    default "Skean"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
 
 endif # BOARD_SKEAN_LEFT
 
@@ -12,35 +15,27 @@ endif # BOARD_SKEAN_LEFT
 if BOARD_SKEAN_LEFT || BOARD_SKEAN_RIGHT
 
 config BOARD
-	default "skean"
+    default "skean"
 
 config ZMK_SPLIT
-	default y
-
-menuconfig SENSOR
-    bool "Sensor Drivers"
+    default y
 
 config BT_CTLR
-	default BT
+    default BT
 
 config ZMK_BLE
-	default y
-
-if BOARD_SKEAN_LEFT
-config ZMK_USB
     default y
-endif
 
 config ZMK_BATTERY_VOLTAGE_DIVIDER
-	default y
+    default y
 
 if USB
 
 config USB_NRFX
-	default y
+    default y
 
 config USB_DEVICE_STACK
-	default y
+    default y
 
 endif # USB
 
