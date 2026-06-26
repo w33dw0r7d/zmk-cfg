@@ -21,3 +21,5 @@
 include:
   - board: skean_left
   - board: skean_right
+  - board: skean_left
+    shield: settings_reset
